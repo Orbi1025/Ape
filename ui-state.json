@@ -1,0 +1,675 @@
+{
+    "devices": {
+        "mobile": {
+            "scrollSettings": {
+                "type": "smooth",
+                "easing": "default",
+                "duration": 1200,
+                "speed": 40,
+                "isInfinite": false
+            },
+            "canvases": {
+                "ig63": {}
+            }
+        },
+        "tablet": {
+            "scrollSettings": {
+                "type": "smooth",
+                "easing": "default",
+                "duration": 1200,
+                "speed": 40,
+                "isInfinite": false
+            },
+            "canvases": {
+                "ig63": {}
+            }
+        },
+        "desktop": {
+            "scrollSettings": {
+                "type": "smooth",
+                "easing": "default",
+                "duration": 1200,
+                "speed": 40,
+                "isInfinite": false
+            },
+            "canvases": {
+                "ig63": {
+                    "sceneId": "916f7717-8143-4e11-8957-4e8345e9ab30",
+                    "cameraId": "818bc868-154c-41e0-b161-e25086dc92f3"
+                }
+            }
+        }
+    },
+    "sections": {
+        "i5vfi": {
+            "name": "2",
+            "offsetY": 0,
+            "hash": "2"
+        },
+        "i5w95j": {
+            "name": "PFPGenerator-anchor",
+            "offsetY": 0,
+            "hash": "pfpgenerator-anchor"
+        },
+        "i8x99i": {
+            "name": "Contact-anchor",
+            "offsetY": 0,
+            "hash": "contact-anchor"
+        },
+        "iasyeh": {
+            "name": "about-anchor",
+            "offsetY": 0,
+            "hash": "about-anchor"
+        },
+        "id3mrk": {
+            "name": "AvailableOn-anchor",
+            "offsetY": 0,
+            "hash": "availableon-anchor"
+        },
+        "iimff9": {
+            "name": "About",
+            "offsetY": 0,
+            "hash": "about"
+        },
+        "iir22r": {
+            "name": "Main1",
+            "offsetY": 0,
+            "hash": "main1"
+        },
+        "imopd2": {
+            "name": "Main-anchor",
+            "offsetY": 0,
+            "hash": "main-anchor"
+        },
+        "ior874": {
+            "name": "HowToApe-anchor",
+            "offsetY": 0,
+            "hash": "howtoape-anchor"
+        },
+        "iq0haj": {
+            "name": "Tokenomics-anchor",
+            "offsetY": 0,
+            "hash": "tokenomics-anchor"
+        },
+        "iqejtv": {
+            "name": "FAQ-anchor",
+            "offsetY": 0,
+            "hash": "faq-anchor"
+        },
+        "ir011x": {
+            "name": "Partnerships-anchor",
+            "offsetY": 0,
+            "hash": "partnerships-anchor"
+        },
+        "itsmle": {
+            "name": "About-anchor",
+            "offsetY": 0,
+            "hash": "about-anchor-2"
+        },
+        "i5vfi-2": {
+            "name": "3B",
+            "offsetY": 0,
+            "hash": "3b"
+        },
+        "ia3l-2-3": {
+            "name": "Main-Anchor",
+            "offsetY": 0,
+            "hash": "main-anchor-2"
+        },
+        "i5vfi-2-2": {
+            "name": "FAQ",
+            "offsetY": 0,
+            "hash": "faq"
+        },
+        "ia3l-2-3-3": {
+            "name": "1",
+            "offsetY": 0,
+            "hash": "1"
+        },
+        "i5vfi-2-2-2": {
+            "name": "Contact",
+            "offsetY": 0,
+            "hash": "contact"
+        }
+    },
+    "links": {
+        "i0z74h": {
+            "type": "internal",
+            "pageId": "2cba2ba5-d467-407f-a1e3-e56ace086672",
+            "sectionId": "ir011x",
+            "smoothScroll": true,
+            "pagePath": "/",
+            "sectionHash": "partnerships-anchor"
+        },
+        "i2gex2": {
+            "type": "internal",
+            "pageId": "2cba2ba5-d467-407f-a1e3-e56ace086672",
+            "sectionId": "id3mrk",
+            "smoothScroll": true,
+            "pagePath": "/",
+            "sectionHash": "availableon-anchor"
+        },
+        "i31zqa": {
+            "url": "https://ch.originalapecoin.com",
+            "type": "external"
+        },
+        "i96vpk": {
+            "url": "https://x.com/BoredApebsc",
+            "type": "external",
+            "newTab": true
+        },
+        "id14e9": {
+            "type": "internal",
+            "pageId": "2cba2ba5-d467-407f-a1e3-e56ace086672",
+            "sectionId": "i8x99i",
+            "smoothScroll": true,
+            "pagePath": "/",
+            "sectionHash": "contact-anchor"
+        },
+        "iid4pg": {
+            "type": "internal",
+            "pageId": "2cba2ba5-d467-407f-a1e3-e56ace086672",
+            "pagePath": "/"
+        },
+        "iq6ngz": {
+            "url": "https://x.com/BoredApebsc",
+            "type": "external",
+            "newTab": true
+        },
+        "istocq": {
+            "url": "https://kr.originalapecoin.com",
+            "type": "external"
+        },
+        "iu9iyk": {
+            "url": "https://sp.originalapecoin.com",
+            "type": "external"
+        },
+        "iyk0mw": {
+            "url": "https://t.me/BoredApebsc",
+            "type": "external",
+            "newTab": true
+        },
+        "iytat1": {
+            "type": "internal",
+            "pageId": "2cba2ba5-d467-407f-a1e3-e56ace086672",
+            "sectionId": "iqejtv",
+            "smoothScroll": true,
+            "pagePath": "/",
+            "sectionHash": "faq-anchor"
+        },
+        "i00zt9-2": {
+            "type": "internal",
+            "pageId": "2cba2ba5-d467-407f-a1e3-e56ace086672",
+            "sectionId": "ia3l-2-3",
+            "smoothScroll": true,
+            "pagePath": "/",
+            "sectionHash": "main-anchor-2"
+        },
+        "i2gex2-2": {
+            "type": "internal",
+            "pageId": "2cba2ba5-d467-407f-a1e3-e56ace086672",
+            "sectionId": "iq0haj",
+            "smoothScroll": true,
+            "pagePath": "/",
+            "sectionHash": "tokenomics-anchor"
+        },
+        "i96vpk-2": {
+            "url": "https://t.me/BoredApebsc",
+            "type": "external",
+            "newTab": true
+        },
+        "in8nmf-2": {
+            "type": "internal",
+            "pageId": "2cba2ba5-d467-407f-a1e3-e56ace086672",
+            "sectionId": "iasyeh",
+            "smoothScroll": true,
+            "pagePath": "/",
+            "sectionHash": "about-anchor"
+        },
+        "i2gex2-2-2": {
+            "type": "internal",
+            "pageId": "2cba2ba5-d467-407f-a1e3-e56ace086672",
+            "sectionId": "ior874",
+            "smoothScroll": true,
+            "pagePath": "/",
+            "sectionHash": "howtoape-anchor"
+        },
+        "i96vpk-2-2": {
+            "url": "mailto:contact@originalapecoin.com",
+            "type": "external",
+            "newTab": true
+        },
+        "i2gex2-2-2-2": {
+            "type": "internal",
+            "pageId": "2cba2ba5-d467-407f-a1e3-e56ace086672",
+            "sectionId": "i5w95j",
+            "smoothScroll": true,
+            "pagePath": "/",
+            "sectionHash": "pfpgenerator-anchor"
+        },
+        "i2gex2-2-2-2-2": {
+            "url": "https://originalapecoin.com/terms-of-use",
+            "type": "external",
+            "newTab": true
+        },
+        "i9o04-3-2-2-2-2": {
+            "url": "https://pancakeswap.finance/swap?outputCurrency=0xcomingsoon",
+            "type": "external",
+            "newTab": true
+        },
+        "i2gex2-2-2-2-2-2": {
+            "url": "https://originalapecoin.com/privacy-policy",
+            "type": "external",
+            "newTab": true
+        },
+        "i9o04-3-2-2-2-2-2": {
+            "url": "https://pancakeswap.finance/swap?outputCurrency=0xcomingsoon",
+            "type": "external",
+            "newTab": true
+        }
+    },
+    "scrollAnimations": {
+        "in391": {
+            "type": "section",
+            "start": "bottom",
+            "effectA": "fade",
+            "effectB": "fade",
+            "sectionId": "i5vfi"
+        },
+        "ia3l-2": {
+            "type": "section",
+            "start": "bottom",
+            "effectA": "fade",
+            "effectB": "fade",
+            "sectionId": "iir22r"
+        },
+        "ioday3": {
+            "type": "section",
+            "start": "bottom",
+            "effectA": "fade",
+            "effectB": "fade",
+            "sectionId": "i5vfi-2-2"
+        },
+        "in391-2": {
+            "type": "section",
+            "start": "bottom",
+            "effectA": "fade",
+            "effectB": "fade",
+            "sectionId": "i5vfi-2"
+        },
+        "ia3l-2-2": {
+            "type": "section",
+            "start": "bottom",
+            "effectA": "fade",
+            "effectB": "fade",
+            "sectionId": "ia3l-2-3-3"
+        },
+        "in391-2-2": {
+            "type": "section",
+            "start": "bottom",
+            "effectA": "fade",
+            "effectB": "fade",
+            "sectionId": "i5vfi-2-2"
+        },
+        "in391-2-2-2": {
+            "type": "section",
+            "start": "bottom",
+            "effectA": "fade",
+            "sectionId": "i5vfi-2-2-2"
+        }
+    },
+    "audio": {
+        "i6alqb": {
+            "src": "/pwb-uploads-staging.s3.amazonaws.com/website/497b3d03-f04f-485b-8498-d02afbacb6e7/ape-soundtrack-by-laszlo-.mp3",
+            "loop": true,
+            "volume": 0.6,
+            "onLeave": "pause",
+            "autoplay": true,
+            "progress": 0,
+            "sourceType": "upload"
+        },
+        "i6alqb-2": {
+            "src": "/pwb-uploads-staging.s3.amazonaws.com/static/audio-placeholder.mp3",
+            "loop": false,
+            "volume": 0.25,
+            "onLeave": "pause",
+            "autoplay": false,
+            "progress": 0,
+            "sourceType": "upload"
+        },
+        "i6alqb-3": {
+            "src": "/pwb-uploads-staging.s3.amazonaws.com/static/audio-placeholder.mp3",
+            "loop": false,
+            "volume": 0.25,
+            "onLeave": "pause",
+            "autoplay": false,
+            "progress": 0,
+            "sourceType": "upload"
+        },
+        "i6alqb-4": {
+            "src": "/pwb-uploads-staging.s3.amazonaws.com/static/audio-placeholder.mp3",
+            "loop": false,
+            "volume": 0.25,
+            "onLeave": "pause",
+            "autoplay": false,
+            "progress": 0,
+            "sourceType": "upload"
+        }
+    },
+    "audioStyle": {
+        "i6alqb": {
+            "playCursor": "pointer",
+            "iconPlayUrl": "/pwb-uploads-staging.s3.amazonaws.com/website/7566bf67-28a6-45ed-bf25-70d4881b0214/btn-no-audio.png",
+            "iconPauseUrl": "/pwb-uploads-staging.s3.amazonaws.com/website/9c0409c4-13ab-4784-9d67-200f960d7b43/btn-audio.png",
+            "playIconType": "custom",
+            "playIconColor": "#252627"
+        },
+        "i6alqb-2": {
+            "playCursor": "pointer",
+            "iconPlayUrl": "/pwb-uploads-staging.s3.amazonaws.com/static/audio-icons/ic-waveform-collapsed-fill.svg",
+            "iconPauseUrl": "/pwb-uploads-staging.s3.amazonaws.com/static/audio-icons/ic-waveform-fill.svg",
+            "playIconType": "waveform",
+            "playIconColor": "#252627"
+        },
+        "i6alqb-3": {
+            "playCursor": "pointer",
+            "iconPlayUrl": "/pwb-uploads-staging.s3.amazonaws.com/static/audio-icons/ic-waveform-collapsed-fill.svg",
+            "iconPauseUrl": "/pwb-uploads-staging.s3.amazonaws.com/static/audio-icons/ic-waveform-fill.svg",
+            "playIconType": "waveform",
+            "playIconColor": "#252627"
+        },
+        "i6alqb-4": {
+            "playCursor": "pointer",
+            "iconPlayUrl": "/pwb-uploads-staging.s3.amazonaws.com/static/audio-icons/ic-waveform-collapsed-fill.svg",
+            "iconPauseUrl": "/pwb-uploads-staging.s3.amazonaws.com/static/audio-icons/ic-waveform-fill.svg",
+            "playIconType": "waveform",
+            "playIconColor": "#252627"
+        }
+    },
+    "interactions": {
+        "iulo6b": [{
+            "actions": [{
+                "id": "ixj1tk-2",
+                "type": "uiOverlay",
+                "event": "toggle_open_close"
+            }],
+            "mouseCursor": "pointer",
+            "triggerType": "mouseClick"
+        }]
+    },
+    "relativeOverlays": {
+        "i8fjo9": {
+            "align": "end",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": -8
+        },
+        "i8o4ej": {
+            "align": "end",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": -8
+        },
+        "i9rwlg": {
+            "align": "end",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": -8
+        },
+        "ii5sdk": {
+            "align": "end",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": -8
+        },
+        "iulf8j": {
+            "align": "end",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": -8
+        },
+        "ivhwgg": {
+            "align": "end",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": -8
+        },
+        "iwh6ti": {
+            "align": "end",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": -8
+        },
+        "ixa2kd": {
+            "align": "end",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": -8
+        },
+        "iz9e5f": {
+            "align": "end",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": -8
+        },
+        "ii5sdk-2": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "ii5sdk-3": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "ii5sdk-4": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "ii5sdk-5": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "iulf8j-3": {
+            "align": "end",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": -8
+        },
+        "iulf8j-5": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "iulf8j-6": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "iulf8j-7": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "iulf8j-8": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "ixa2kd-2": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "ixa2kd-3": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "ixa2kd-4": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "ixa2kd-5": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "ixj1tk-2": {
+            "align": "end",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 80
+        },
+        "iulf8j-2-2": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "iulf8j-2-3": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "iulf8j-2-4": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "iulf8j-2-5": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "iulf8j-3-2": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "iulf8j-3-3": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "iulf8j-3-4": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "iulf8j-3-5": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "iulf8j-4-2": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "iulf8j-4-3": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "iulf8j-4-4": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "iulf8j-4-5": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "ixj1tk-2-2": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "ixj1tk-2-3": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "ixj1tk-2-4": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        },
+        "ixj1tk-2-5": {
+            "align": "center",
+            "position": "bottom",
+            "dismissType": "auto",
+            "offsetParallel": 0,
+            "offsetOrthogonal": 8
+        }
+    }
+}
